@@ -1,0 +1,40 @@
+$white: #fff;
+
+$bg1: #212731;
+$bg2: #FBFCFD;
+$bg3: #F3F9FF;
+$bg4: #FF7724;
+$bg5: #F2F4F7;
+$bg6: #FFF4ED;
+$bg7: #EBF5FF;
+
+$text1: #D1D6DA;
+$text2:#E1E4E6;
+$text3:#4B5665;
+$text4:#727D87;
+$text5:#5C6874;
+$text6:#626E79;
+$text7:#2C384A;
+$text8: #1B88F4;
+$text9: #074786;
+$text10: #9FA9B3;
+$text11: #EF4C5D;
+$text12: #B6BDC4;
+
+$max_width:1024px;
+
+$mediaw1:480px;
+$mediaw2:768px;
+
+@mixin flex($justifyContent: center, $alingItem: center) {
+  display: flex;
+  align-items: $alingItem;
+  justify-content: $justifyContent;
+}
+
+@mixin fontstyles($fontsize, $lineheight, $fontweight: 400) {
+  font-family: "Inter", sans-serif;
+  font-size: $fontsize;
+  font-weight: $fontweight;
+  line-height: $lineheight;
+}
